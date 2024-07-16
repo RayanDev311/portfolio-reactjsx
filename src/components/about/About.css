@@ -1,0 +1,12 @@
+.about {
+  padding: 60px 80px 30px;
+  display: flex;
+  gap: 80px;
+}
+.content {
+  flex-direction: column;
+  gap: 20px;
+}
+.about p {
+  color: hsla(240, 4%, 46%, 1);
+}

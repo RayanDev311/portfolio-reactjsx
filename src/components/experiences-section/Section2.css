@@ -1,0 +1,40 @@
+.section2 {
+  background-color: black;
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section-content {
+  border: 1px solid #71717a;
+  border-radius: 10px;
+  padding: 30px 24px;
+}
+.colored {
+  background-color: var(--Zinc-800, #27272A);
+  border: 0;
+}
+.section2 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-content .heading {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.section-content .heading .left {
+  display: flex;
+  gap: 30px;
+}
+p {
+    color: hsla(240, 5%, 84%, 1);
+}

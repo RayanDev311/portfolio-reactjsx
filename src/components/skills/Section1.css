@@ -1,0 +1,27 @@
+.container {
+    padding: 60px 80px 80px;
+}
+.container .title {
+    padding: 0 0 60px;
+    text-align: center;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+
+}
+.row .skill {
+    width: 130px;
+    height: 130px;
+    border-radius: 4px;
+    border: 2px #000000 solid;
+    padding: 24px;
+    gap: 32px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skill h5 {
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
+  font-family: "Sora", sans-serif;
+}
