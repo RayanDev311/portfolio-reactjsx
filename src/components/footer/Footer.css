@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer h5, .footer p {
+    color: white;
+
+}
+.rights {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}

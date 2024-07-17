@@ -13,7 +13,7 @@ function Hero() {
         <div className="content">
           <div className="intro">
             <span className="h3">Hello I’am</span> &nbsp;&nbsp;
-            <span className="bold">Fadhil Ishola.</span> <br></br>
+            <span className="bold">Fadhil.</span> <br></br>
             <span className="bold">Frontend</span>&nbsp;&nbsp;
             <span className="transparent">Developer</span> <br></br>
             <span className="h3">Based In</span>&nbsp;&nbsp;

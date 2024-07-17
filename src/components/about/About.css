@@ -10,3 +10,6 @@
 .about p {
   color: hsla(240, 4%, 46%, 1);
 }
+.about-img-mob {
+  display: none;
+}

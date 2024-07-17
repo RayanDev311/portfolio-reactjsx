@@ -22,7 +22,7 @@ function Section3() {
                     <h2>Crypto Screener Application</h2>
                     <p>I am Fadhil Ishola Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.</p>
                     <a href='#'>
-                        <img src={icon} alt="icon" className="section3-img" />
+                        <img src={icon} alt="icon" />
                     </a>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function Section3() {
                     <h2>Euphoria - Ecommerce (Apparels) Website Template</h2>
                     <p>I am Fadhil Ishola Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.</p>
                     <a href='#'>
-                        <img src={icon} alt="icon" className="section3-img" />
+                        <img src={icon} alt="icon" />
                     </a>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Section3() {
                     <h2>Blog Website Template</h2>
                     <p>I am Fadhil Ishola Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.</p>
                     <a href='#'>
-                        <img src={icon} alt="icon" className="section3-img" />
+                        <img src={icon} alt="icon" />
                     </a>
                 </div>
             </div>

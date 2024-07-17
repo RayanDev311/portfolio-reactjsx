@@ -38,7 +38,13 @@ h5 {
 p {
   color: hsla(0, 0%, 25%, 1);
 }
-.testimony hr {
+.dark hr {
+    background-color: #fff;
+    border: 0;
+    width: 120px;
+    height: 2px;
+}
+hr {
   border: 0;
   width: 120px;
   height: 2px;

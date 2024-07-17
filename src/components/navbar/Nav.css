@@ -19,11 +19,15 @@ h5 {
   text-align: left;
 }
 
-.logo-icon {
+.logo-icon,
+.logo-icon-mob {
   display: flex;
   width: 40px;
   height: 40px;
   gap: 12px;
+}
+.logo-icon-mob {
+  display: none;
 }
 
 .navbar-links {
@@ -71,6 +75,6 @@ h5 {
   background-color: #404040;
 }
 .navbar-icon {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }

@@ -7,6 +7,8 @@ import Section2 from './components/experiences-section/Section2';
 import About from './components/about/About';
 import Section3 from './components/projects/Section3';
 import Section4 from './components/testimonies/Section4';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <About />
       <Section3 />
       <Section4 />
+      <Contact />
+      <Footer />
     </div>
   );
 }
