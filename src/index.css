@@ -3,6 +3,7 @@ body {
   border: none;
   outline: none;
   overflow-x: hidden;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 * {
@@ -12,7 +13,51 @@ img {
   object-fit: contain;
   object-position: center;
 }
-@media screen and (min-width:716px) and (max-width:1024px) {
+@media screen and (min-width:781px) and (max-width:1024px) {
+  
+  .hero-section {
+    padding: 20px 16px;
+  }
+  .hero-section .container {
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+  .hero-section .content {
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 0;
+    gap: 20px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .hero-section .img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .img .hero-img {
+    object-fit: contain;
+    object-position: center;
+    width: 85%;
+  }
+  .hero-links {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+  }
+  .row .skill {
+    width: 100px;
+    height: 100px;
+  }
   .about {
     padding: 20px 16px;
     flex-direction: column;
@@ -41,6 +86,10 @@ img {
   .section3 .row {
     gap: 20px;
   }
+  .section3 .row p {
+    width: 80%;
+    text-align: left;
+  }
   .row-reverse {
     flex-direction: row;
   }
@@ -59,7 +108,6 @@ img {
   .navbar-links, .button {
     display: none;
   }
-
   .hero-section {
     padding: 20px 16px;
   }
