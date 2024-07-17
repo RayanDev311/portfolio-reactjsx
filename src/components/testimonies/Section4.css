@@ -24,13 +24,17 @@
   border-radius: 20px;
   box-shadow: 0px 9px 18px hsla(222, 52%, 19%, 0.08);
 }
-.dark {
+.testimony:hover {
   background-color: black;
   border: 0;
+  transition: all 2s;
 }
-.dark h5,
-.dark p {
+.testimony:hover h5,
+.testimony:hover p {
   color: white;
+}
+.testimony:hover hr {
+  background-color: #fff;
 }
 h5 {
   text-align: center;
