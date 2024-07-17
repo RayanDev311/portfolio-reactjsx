@@ -7,7 +7,7 @@ import icon3 from "./Button (3).svg";
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className='contact-form'>
                 <input type="text" id="" placeholder="Your name" />
                 <input type="email" id="" placeholder="Email" />
@@ -36,8 +36,9 @@ const Contact = () => {
                 <span className='transparent'> talk</span>
                 <span className='bold'> for Something special</span>
                 <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
-                <h5>medish776@gmail.com</h5>
-                <h5>22957945511</h5>
+                <h5><a href="mailto:medish776@gmail.com">medish776@gmail.com</a></h5>
+                <h5> 
+                <a href="tel:+22957945511">22957945511</a></h5>
             </div>
         </div>
     )

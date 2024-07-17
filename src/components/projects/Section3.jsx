@@ -9,7 +9,7 @@ import icon from "./Read More.svg";
 
 function Section3() {
     return (
-        <div className='section3'>
+        <div className='section3' id='section3'>
             <div className='title'>
                 <span className='h3'>My</span> &nbsp; &nbsp; <span className='bold'>Projects</span>
             </div>

@@ -7,7 +7,7 @@ import image1 from "./about-img-mob.svg";
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <div className='img'>
                 <img src={image} alt="icon" className="about-img" />
                 <img src={image1} alt="icon" className="about-img-mob" />

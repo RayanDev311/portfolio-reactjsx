@@ -33,3 +33,11 @@ border: 1.4px solid black;
   letter-spacing: -0.02em;
   text-align: left;
 }
+.contact-text a {
+  text-decoration: none;
+  color: #000;
+}
+.contact-text a:hover {
+  color: #0000007d;
+  transition: all 1s;
+}

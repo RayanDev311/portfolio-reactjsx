@@ -11,7 +11,7 @@ import icon5 from "./icon-storybook.svg";
 
 const Section1 = () => {
   return (
-    <section className='container'>
+    <section className='container' id='section1'>
         <div className='title'>
           <span className='h3'>My</span> &nbsp; &nbsp; <span className='bold'>Skills</span>
         </div>

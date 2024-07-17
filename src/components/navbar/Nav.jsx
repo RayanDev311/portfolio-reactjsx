@@ -3,6 +3,7 @@ import './Nav.css';
 import Logo from './navbar-logo1.svg';
 import Logo1 from './navbar-logo.svg';
 import icon from './Icon.svg';
+import { GiHamburgerMenu as Hamburger } from 'react-icons/gi';
 
 const Nav = () => {
   return (
@@ -13,12 +14,16 @@ const Nav = () => {
         <h5>Fadhil</h5>
       </div>
       <ul className="navbar-links">
-        <li><a href="About.jsx">About me</a></li>
-        <li><a href="Section1.jsx">Skills</a></li>
-        <li><a href="Section3.jsx">Projects</a></li>
-        <li><a href="Contact.jsx">Contact me</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#section1">Skills</a></li>
+        <li><a href="#section3">Projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
       </ul>
-      <button className="button"><span>Resume</span><img src={icon} className="navbar-icon" /></button>
+      <button className="button">
+        <span>Resume</span>
+        <img src={icon} className="navbar-icon" alt="icon" />
+      </button>
+      <Hamburger size={30} className="hamburger-icon" />
     </nav>
   );
 }

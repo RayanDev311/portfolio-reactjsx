@@ -10,9 +10,9 @@
 .hero-section .content {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 35%;
   padding: 50px 0;
-  gap: 50px;
+  gap: 100px;
 }
 /*.hero-section .content .intro*/
 .h3 {
@@ -57,7 +57,7 @@
   transition: all 1s;
 }
 .hero-section .img {
-  width: 67%;
+  width: 65%;
   margin: 0;
   padding: 0;
 }
